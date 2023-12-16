@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="KarteiKartenApp.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+                 
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Image
+                Aspect="AspectFit"
+                HeightRequest="185"
+                SemanticProperties.Description="dot net bot in a race car number eight"
+                Source="hitman.png" />
+            <Label
+                FontSize="Default"
+                HorizontalTextAlignment="Center"
+                Style="{StaticResource Headline}"
+                Text="Wilkommen bei DER KarteikartenApp"
+                VerticalTextAlignment="Center" />
+
+            <Entry
+                x:Name="TxtUser"
+                SemanticProperties.HeadingLevel="Level2"
+                Style="{StaticResource SubHeadline}"
+                Placeholder="user" />
+
+            <Entry
+                x:Name="TxtPassword"
+                IsPassword="True"
+                SemanticProperties.HeadingLevel="Level2"
+                Style="{StaticResource SubHeadline}"
+                Placeholder="Password" />
+
+            <Button
+                x:Name="login"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Text="Login" />
+            <Button
+                x:Name="CmdRegesiter"
+                Clicked="OnRegisterClicked"
+                HorizontalOptions="Center"
+                Text="Register" />
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

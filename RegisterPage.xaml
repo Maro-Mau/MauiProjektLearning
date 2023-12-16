@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="KarteiKartenApp.RegisterPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="RegisterPage">
+    <VerticalStackLayout>
+        <Label
+            HorizontalOptions="Center"
+            Text="Willkommen"
+            VerticalOptions="Center" />
+        <Entry
+            x:Name="EmailEntry"
+            HorizontalOptions="Center"
+            Keyboard="Email"
+            Placeholder="Email"
+            VerticalOptions="Center" />
+        <Entry
+            x:Name="PasswordEntry"
+            HorizontalOptions="Center"
+            IsPassword="true"
+            Placeholder="Password"
+            VerticalOptions="Center" />
+        <Entry
+            x:Name="PasswordRepeatEntry"
+            HorizontalOptions="Center"
+            IsPassword="true"
+            Placeholder="Password wiederholen"
+            VerticalOptions="Center" />
+        <!--<Button
+            Text="Registrieren"
+            Clicked="SendRegisterButtonClicked"
+            VerticalOptions="Center"
+            HorizontalOptions="Center" />-->
+        <Button
+            x:Name="BackToLogin"
+            Clicked="CmdBackToLogin"
+            HorizontalOptions="Center"
+            Text="Zurück"
+            VerticalOptions="Center" />
+
+
+    </VerticalStackLayout>
+</ContentPage>

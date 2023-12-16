@@ -1,0 +1,1 @@
+G:\Repos\KarteiKartenApp\KarteiKartenApp.csproj;x64
