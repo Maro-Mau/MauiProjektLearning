@@ -32936,11 +32936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Repos\\KarteiKartenApp\\KarteiKartenApp.csproj",
+      "projectUniqueName": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
       "projectName": "KarteiKartenApp",
-      "projectPath": "G:\\Repos\\KarteiKartenApp\\KarteiKartenApp.csproj",
+      "projectPath": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
       "packagesPath": "C:\\Users\\reneb\\.nuget\\packages\\",
-      "outputPath": "G:\\Repos\\KarteiKartenApp\\obj\\",
+      "outputPath": "G:\\Repos\\MauiProjektLearning\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

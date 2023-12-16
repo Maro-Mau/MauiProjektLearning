@@ -10,4 +10,9 @@ public partial class RegisterPage : ContentPage
 	{
         Navigation.PushAsync(new MainPage());
     }
+
+    private void RegisterButton_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

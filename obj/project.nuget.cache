@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Yi/uKx3M7NzVn/ktzOuWc6amqmo9ni7TUErI5hJSgtPrvIm2Kcg4wX4u1OrQ2D23Kw46FSTz1d4XMoadUjHDw==",
+  "dgSpecHash": "JKCkIUK3WC6LYo7XRGqJTieW9xDVSXOrlqhNTOYBi6MdMyjZeXaX1j+B/oGILWPIUOP6jUmYbmX7aWqDACXmtA==",
   "success": true,
-  "projectFilePath": "G:\\Repos\\KarteiKartenApp\\KarteiKartenApp.csproj",
+  "projectFilePath": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reneb\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\reneb\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

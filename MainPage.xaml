@@ -9,24 +9,27 @@
                  
 
     <ScrollView>
-        <VerticalStackLayout Padding="30,0" Spacing="25">
+        
+        <VerticalStackLayout Padding="35,0" Spacing="20">
+            
             <Image
                 Aspect="AspectFit"
                 HeightRequest="185"
-                SemanticProperties.Description="dot net bot in a race car number eight"
+                SemanticProperties.Description="Bob the Hitman Minion"
                 Source="hitman.png" />
             <Label
                 FontSize="Default"
                 HorizontalTextAlignment="Center"
                 Style="{StaticResource Headline}"
-                Text="Wilkommen bei DER KarteikartenApp"
+                Text="Wilkommen bei DER App"
+                
                 VerticalTextAlignment="Center" />
 
             <Entry
                 x:Name="TxtUser"
                 SemanticProperties.HeadingLevel="Level2"
                 Style="{StaticResource SubHeadline}"
-                Placeholder="user" />
+                Placeholder="User" />
 
             <Entry
                 x:Name="TxtPassword"
@@ -39,13 +42,25 @@
                 x:Name="login"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Text="Login" />
+                Text="Login"
+                BackgroundColor="CornflowerBlue"
+                />
             <Button
                 x:Name="CmdRegesiter"
                 Clicked="OnRegisterClicked"
                 HorizontalOptions="Center"
-                Text="Register" />
+                Text="Register"
+                BackgroundColor="CornflowerBlue"
+                />
+            <Label
+                x:Name="LblError"
+                FontSize="Small"
+                TextColor="DarkMagenta"
+                HorizontalTextAlignment="Center"
+                Style="{StaticResource SubHeadline}"
+                Text="Diese App befindet sich in der Entwicklung"
+                VerticalTextAlignment="Center" />
+            
         </VerticalStackLayout>
     </ScrollView>
     

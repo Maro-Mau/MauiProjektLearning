@@ -19,7 +19,7 @@ namespace KarteiKartenApp
             String password = TxtPassword.Text;
             if (user == "admin" && password == "admin")
             {
-                Navigation.PushAsync(new RegisterPage());
+                Navigation.PushAsync(new SelectCategory());
             }
             else
             {

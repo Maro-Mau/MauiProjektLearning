@@ -2,9 +2,10 @@
 <ContentPage
     x:Class="KarteiKartenApp.RegisterPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="RegisterPage">
-    <VerticalStackLayout>
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <!--Title="RegisterPage"-->
+   
+    <VerticalStackLayout Padding="35,0" Spacing="20">
         <Label
             HorizontalOptions="Center"
             Text="Willkommen"
@@ -27,17 +28,20 @@
             IsPassword="true"
             Placeholder="Password wiederholen"
             VerticalOptions="Center" />
-        <!--<Button
+        <Button
+            x:Name="RegisterButton"
+            Clicked="RegisterButton_Clicked"
+            HorizontalOptions="Center"
             Text="Registrieren"
-            Clicked="SendRegisterButtonClicked"
             VerticalOptions="Center"
-            HorizontalOptions="Center" />-->
+            BackgroundColor="CornflowerBlue"/>
         <Button
             x:Name="BackToLogin"
             Clicked="CmdBackToLogin"
             HorizontalOptions="Center"
             Text="Zurück"
-            VerticalOptions="Center" />
+            VerticalOptions="Center"
+            BackgroundColor="CornflowerBlue"/>
 
 
     </VerticalStackLayout>
