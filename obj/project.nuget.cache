@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "voWIiOp/cNmkPd3LJZv3xq8PzFBSEsup9MZy2jGAoowp1R/NrBgBOXYaoaNLCWhMg3U1JlD+XvsAvyBoFy2BEA==",
+  "dgSpecHash": "F68qjFjnawSRPponeH9T3SB6McJxCR1N1ZAGQkVRXPMgKoW8rSk5U8RUT53i3M6CuEiXq9xxH5aAO94oyl0Wfw==",
   "success": true,
   "projectFilePath": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\reneb\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\reneb\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\reneb\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\reneb\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
