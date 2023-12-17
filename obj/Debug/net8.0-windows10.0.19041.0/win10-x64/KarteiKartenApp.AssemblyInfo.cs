@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KarteiKartenApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2ef52dd765db349df61b54b2ce8f0770ae3fb827")]
 [assembly: System.Reflection.AssemblyProductAttribute("KarteiKartenApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KarteiKartenApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

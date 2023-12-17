@@ -68,7 +68,6 @@
                     HorizontalTextAlignment="Center"
                     Style="{StaticResource SubHeadline}"
                     Text="Remember me"
-                    
                     VerticalOptions="Center" />
                 <Button
                     x:Name="login"
