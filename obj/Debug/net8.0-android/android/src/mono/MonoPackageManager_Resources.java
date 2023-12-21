@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "KarteiKartenApp.dll" comes first in this list. */
 		"KarteiKartenApp.dll",
+		"CommunityToolkit.Mvvm.dll",
 		"Google.Protobuf.dll",
 		"GoogleGson.dll",
 		"K4os.Compression.LZ4.dll",

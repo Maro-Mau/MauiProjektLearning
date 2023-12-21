@@ -7,6 +7,7 @@ namespace KarteiKartenApp
     public partial class MainPage : ContentPage
     {
         //new NewContent1 NewContent1 = new NewContent1();
+         LoginDatabaseCheck loginDatabaseCheck = new LoginDatabaseCheck();
         public MainPage()
         {
             InitializeComponent();
@@ -17,6 +18,7 @@ namespace KarteiKartenApp
 
             String user = TxtUser.Text;
             String password = TxtPassword.Text;
+            //loginDatabaseCheck.DatabaseConection();
             if (user == "admin" && password == "admin")
             {
                 Navigation.PushAsync(new SelectCategory());

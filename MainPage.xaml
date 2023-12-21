@@ -86,9 +86,16 @@
                     Clicked="OnRegisterClicked"
                     HorizontalOptions="Center"
                     Text="Register" />
+
+
+                <Switch OnColor="Orange" />
+
+
+
             </Grid>
 
 
+            <ActivityIndicator IsRunning="True" IsVisible="True" />
 
 
 

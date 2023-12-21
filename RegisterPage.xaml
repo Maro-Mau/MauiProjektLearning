@@ -8,6 +8,8 @@
     <VerticalStackLayout Padding="35,0" Spacing="20">
         <Label
             HorizontalOptions="Center"
+            FontSize="Medium"
+            TextColor="Chocolate"
             Text="Willkommen"
             VerticalOptions="Center" />
         <Entry
