@@ -10,6 +10,7 @@
 
     <ScrollView>
 
+
         <VerticalStackLayout Padding="35,0" Spacing="20">
 
             <Image
@@ -86,18 +87,21 @@
                     Clicked="OnRegisterClicked"
                     HorizontalOptions="Center"
                     Text="Register" />
-
-
-                <Switch OnColor="Orange" />
-
-
-
             </Grid>
+            <Button
+                    x:Name="login2"
+                    BackgroundColor="CornflowerBlue"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center"
+                    Text="Login" />
 
-
-            <ActivityIndicator IsRunning="True" IsVisible="True" />
-
-
+            <Button
+                    x:Name="CmdRegesiter2"
+                    
+                    BackgroundColor="CornflowerBlue"
+                    Clicked="OnRegisterClicked"
+                    HorizontalOptions="Center"
+                    Text="Register" />
 
             <Label
                 x:Name="LblError"
@@ -112,3 +116,6 @@
     </ScrollView>
 
 </ContentPage>
+
+            <!--<Switch OnColor="Orange" />-->
+            <!--<ActivityIndicator IsRunning="True" IsVisible="True" />-->

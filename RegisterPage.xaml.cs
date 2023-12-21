@@ -13,6 +13,6 @@ public partial class RegisterPage : ContentPage
 
     private void RegisterButton_Clicked(object sender, EventArgs e)
     {
-
+		var BirthD = BirthDate.Date;
     }
 }

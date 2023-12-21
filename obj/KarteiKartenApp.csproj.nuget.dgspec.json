@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\MauiProjektLearning\\KarteiKartenApp.csproj": {}
+    "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj": {}
   },
   "projects": {
-    "D:\\repos\\MauiProjektLearning\\KarteiKartenApp.csproj": {
+    "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
+        "projectUniqueName": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
         "projectName": "KarteiKartenApp",
-        "projectPath": "D:\\repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
+        "projectPath": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
         "packagesPath": "C:\\Users\\reneb\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\MauiProjektLearning\\obj\\",
+        "outputPath": "G:\\Repos\\MauiProjektLearning\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

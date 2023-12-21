@@ -58074,11 +58074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
+      "projectUniqueName": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
       "projectName": "KarteiKartenApp",
-      "projectPath": "D:\\repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
+      "projectPath": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
       "packagesPath": "C:\\Users\\reneb\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\MauiProjektLearning\\obj\\",
+      "outputPath": "G:\\Repos\\MauiProjektLearning\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -58370,13 +58370,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\repos\\MauiProjektLearning\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

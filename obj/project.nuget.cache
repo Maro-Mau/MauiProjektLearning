@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dER1aD/fWxBMuumuUWU5GdZbu5d1YiuzE6MNpyB7/CccILh6acIx3yy2I6K2bxLrCrq6FISA4bZsPm5Ex/rXEA==",
+  "dgSpecHash": "F68qjFjnawSRPponeH9T3SB6McJxCR1N1ZAGQkVRXPMgKoW8rSk5U8RUT53i3M6CuEiXq9xxH5aAO94oyl0Wfw==",
   "success": true,
-  "projectFilePath": "D:\\repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
+  "projectFilePath": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reneb\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\reneb\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
@@ -160,12 +160,5 @@
     "C:\\Users\\reneb\\.nuget\\packages\\zstdsharp.port\\0.7.1\\zstdsharp.port.0.7.1.nupkg.sha512",
     "C:\\Users\\reneb\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\repos\\MauiProjektLearning\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

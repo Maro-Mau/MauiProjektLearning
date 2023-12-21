@@ -7,10 +7,10 @@
 
     <VerticalStackLayout Padding="35,0" Spacing="20">
         <Label
-            HorizontalOptions="Center"
             FontSize="Medium"
-            TextColor="Chocolate"
+            HorizontalOptions="Center"
             Text="Willkommen"
+            TextColor="Chocolate"
             VerticalOptions="Center" />
         <Entry
             x:Name="EmailEntry"
@@ -30,6 +30,11 @@
             IsPassword="true"
             Placeholder="Password wiederholen"
             VerticalOptions="Center" />
+        <DatePicker
+            x:Name="BirthDate"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+        <Picker />
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="50" />
