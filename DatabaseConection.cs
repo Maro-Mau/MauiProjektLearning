@@ -13,7 +13,7 @@ namespace KarteiKartenApp
             int port = 3306;
             string database = "Login";
             string username = "rene";
-            string password = "Lugo-2012!";
+            string password = "GEHEIM";
             string connectionString = $"Server={server};Port={port};Database={database};User ID={username};Password={password};";
             string DBRespons = "";
 
