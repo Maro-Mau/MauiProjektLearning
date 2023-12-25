@@ -11,11 +11,12 @@
     <ScrollView>
 
 
-        <VerticalStackLayout Padding="35,0" Spacing="20">
+        <VerticalStackLayout Padding="50,0" Spacing="20">
+
 
             <Image
                 Aspect="AspectFit"
-                HeightRequest="185"
+                HeightRequest="250"
                 SemanticProperties.Description="Bob the Hitman Minion"
                 Source="hitman.png" />
             <Label
@@ -23,99 +24,61 @@
                 HorizontalTextAlignment="Center"
                 Style="{StaticResource Headline}"
                 Text="Wilkommen bei DER App"
+                TextColor="BlanchedAlmond"
                 VerticalTextAlignment="Center" />
 
             <Entry
                 x:Name="TxtUser"
                 Placeholder="User"
-                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.HeadingLevel="Level9"
                 Style="{StaticResource SubHeadline}" />
 
             <Entry
                 x:Name="TxtPassword"
                 IsPassword="True"
                 Placeholder="Password"
-                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.HeadingLevel="Level9"
                 Style="{StaticResource SubHeadline}" />
 
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="170" />
-                    <ColumnDefinition Width="Auto" />
 
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
+            <FlexLayout
+                AlignItems="Center"
+                Direction="Row"
+                JustifyContent="Center">
+                <Frame
+                    Margin="20,10,20,10"
+                    Padding="10"
+                    BackgroundColor="BlanchedAlmond"
+                    CornerRadius="25"
+                    HeightRequest="65"
+                    WidthRequest="130">
+                    <Button
+                        x:Name="login"
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        BackgroundColor="BlanchedAlmond"
+                        Clicked="OnCounterClicked"
+                        HorizontalOptions="Center"
+                        Text="Login" />
+                </Frame>
 
-                <CheckBox
-                    x:Name="ChkRemember"
-                    Grid.Row="0"
-                    Grid.Column="0"
-                    AutomationId="ChkRememberCheckbox"
-                    HorizontalOptions="Start"
-                    IsChecked="True"
-                    VerticalOptions="Center" />
-
-                <Label
-                    x:Name="LblRemember"
-                    Grid.Row="0"
-                    Grid.Column="0"
-                    FontSize="Small"
-                    HorizontalTextAlignment="Center"
-                    Style="{StaticResource SubHeadline}"
-                    Text="Remember me"
-                    VerticalOptions="Center" />
-                <Button
-                    x:Name="login"
-                    Grid.Row="3"
-                    Grid.Column="0"
-                    BackgroundColor="CornflowerBlue"
-                    Clicked="OnCounterClicked"
-                    HorizontalOptions="Center"
-                    Text="Login" />
-
-                <Button
-                    x:Name="CmdRegesiter"
-                    Grid.Row="3"
-                    Grid.Column="1"
-                    BackgroundColor="CornflowerBlue"
-                    Clicked="OnRegisterClicked"
-                    HorizontalOptions="Center"
-                    Text="Register" />
-            </Grid>
-            <Button
-                    x:Name="login2"
-                    BackgroundColor="CornflowerBlue"
-                    Clicked="OnCounterClicked"
-                    HorizontalOptions="Center"
-                    Text="Login" />
-
-            <Button
-                    x:Name="CmdRegesiter2"
-                    
-                    BackgroundColor="CornflowerBlue"
-                    Clicked="OnRegisterClicked"
-                    HorizontalOptions="Center"
-                    Text="Register" />
-
-            <Label
-                x:Name="LblError"
-                FontSize="Small"
-                HorizontalTextAlignment="Center"
-                Style="{StaticResource SubHeadline}"
-                Text="Diese App befindet sich in der Entwicklung"
-                TextColor="DarkMagenta"
-                VerticalTextAlignment="Center" />
-
+                <Frame
+                    Margin="20,10,20,10"
+                    Padding="10"
+                    BackgroundColor="BlanchedAlmond"
+                    CornerRadius="25"
+                    HeightRequest="65"
+                    WidthRequest="130">
+                    <Button
+                        x:Name="CmdRegesiter"
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        BackgroundColor="BlanchedAlmond"
+                        Clicked="OnRegisterClicked"
+                        HorizontalOptions="Center"
+                        Text="Register" />
+                </Frame>
+            </FlexLayout>
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>
-
-            <!--<Switch OnColor="Orange" />-->
-            <!--<ActivityIndicator IsRunning="True" IsVisible="True" />-->

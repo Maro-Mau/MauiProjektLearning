@@ -10,59 +10,69 @@
             FontSize="Medium"
             HorizontalOptions="Center"
             Text="Willkommen"
-            TextColor="Chocolate"
+            TextColor="Turquoise"
             VerticalOptions="Center" />
         <Entry
             x:Name="EmailEntry"
             HorizontalOptions="Center"
             Keyboard="Email"
-            Placeholder="Email"
+            Placeholder="E-Mail"
+            TextColor="BlanchedAlmond"
             VerticalOptions="Center" />
         <Entry
             x:Name="PasswordEntry"
             HorizontalOptions="Center"
             IsPassword="true"
             Placeholder="Password"
+            TextColor="BlanchedAlmond"
             VerticalOptions="Center" />
         <Entry
             x:Name="PasswordRepeatEntry"
             HorizontalOptions="Center"
             IsPassword="true"
             Placeholder="Password wiederholen"
+            TextColor="BlanchedAlmond"
             VerticalOptions="Center" />
-        <DatePicker
-            x:Name="BirthDate"
-            HorizontalOptions="Center"
-            VerticalOptions="Center" />
-        <Picker />
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="50" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="20" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="50" />
-            </Grid.ColumnDefinitions>
 
-            <Button
-                x:Name="RegisterButton"
-                Grid.Column="1"
-                BackgroundColor="CornflowerBlue"
-                Clicked="RegisterButton_Clicked"
-                HorizontalOptions="End"
-                Text="Registrieren"
-                VerticalOptions="Center" />
+        <FlexLayout
+            AlignItems="Center"
+            Direction="Row"
+            JustifyContent="Center">
+            <Frame
+                Margin="20,10,20,10"
+                Padding="10"
+                BackgroundColor="BlanchedAlmond"
+                CornerRadius="25"
+                HeightRequest="65"
+                WidthRequest="130">
+                <Button
+                    x:Name="RegisterButton"
+                    Grid.Column="1"
+                    BackgroundColor="BlanchedAlmond"
+                    Clicked="RegisterButton_Clicked"
+                    HorizontalOptions="End"
+                    Text="Registrieren"
+                    VerticalOptions="Center" />
+            </Frame>
 
-            <Button
-                x:Name="BackToLogin"
-                Grid.Column="3"
-                BackgroundColor="CornflowerBlue"
-                Clicked="CmdBackToLogin"
-                HorizontalOptions="Center"
-                Text="Zurück"
-                VerticalOptions="Center" />
-        </Grid>
+            <Frame
+                Margin="20,10,20,10"
+                Padding="10"
+                BackgroundColor="BlanchedAlmond"
+                CornerRadius="25"
+                HeightRequest="65"
+                WidthRequest="130">
+                <Button
+                    x:Name="BackToLogin"
+                    Grid.Column="3"
+                    BackgroundColor="BlanchedAlmond"
+                    Clicked="CmdBackToLogin"
+                    HorizontalOptions="Center"
+                    Text="Zurück"
+                    VerticalOptions="Center" />
+            </Frame>
+        </FlexLayout>
 
-
+        
     </VerticalStackLayout>
 </ContentPage>

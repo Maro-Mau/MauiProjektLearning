@@ -90,6 +90,10 @@
             "linq2db.MySqlConnector": {
               "target": "Package",
               "version": "[5.3.2, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.141-beta, )"
             }
           },
           "imports": [
@@ -145,6 +149,10 @@
             "linq2db.MySqlConnector": {
               "target": "Package",
               "version": "[5.3.2, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.141-beta, )"
             }
           },
           "imports": [
@@ -200,6 +208,10 @@
             "linq2db.MySqlConnector": {
               "target": "Package",
               "version": "[5.3.2, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.141-beta, )"
             }
           },
           "imports": [
@@ -250,6 +262,10 @@
             "linq2db.MySqlConnector": {
               "target": "Package",
               "version": "[5.3.2, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.141-beta, )"
             }
           },
           "imports": [

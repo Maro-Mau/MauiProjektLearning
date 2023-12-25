@@ -2,14 +2,80 @@
 <ContentPage
     x:Class="KarteiKartenApp.SelectCategory"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="SelectCategory">
-    <VerticalStackLayout>
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+
+    <StackLayout>
         <Label
-            HorizontalOptions="Center"
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" />
+            Margin="20,70,20,10"
+            FontSize="28"
+            HorizontalTextAlignment="Center"
+            Text="Choose a Category"
+            TextColor="BlanchedAlmond"
+            VerticalTextAlignment="Center" />
 
+        <FlexLayout
+            AlignItems="Center"
+            Direction="Row"
+            JustifyContent="Center">
+            <Frame
+                Margin="20,40,20,10"
+                Padding="10"
+                BackgroundColor="BlanchedAlmond"
+                CornerRadius="25"
+                HeightRequest="65"
+                WidthRequest="150">
+                <Button
+                    BackgroundColor="BlanchedAlmond"
+                    FontSize="18"
+                    Text="Category 1" />
+            </Frame>
 
-    </VerticalStackLayout>
+            <Frame
+                Margin="20,40,20,10"
+                Padding="10"
+                BackgroundColor="BlanchedAlmond"
+                CornerRadius="25"
+                HeightRequest="65"
+                WidthRequest="150">
+                <Button
+                    BackgroundColor="BlanchedAlmond"
+                    FontSize="18"
+                    Text="Category 2" />
+            </Frame>
+        </FlexLayout>
+
+        <FlexLayout
+            AlignItems="Center"
+            Direction="Row"
+            JustifyContent="Center">
+            <Frame
+                Margin="20,40,20,10"
+                Padding="10"
+                BackgroundColor="BlanchedAlmond"
+                CornerRadius="30"
+                HeightRequest="65"
+                WidthRequest="150">
+
+                <Button
+                    BackgroundColor="BlanchedAlmond"
+                    FontSize="18"
+                    Text="Category 3" />
+            </Frame>
+
+            <Frame
+                Margin="20,40,20,10"
+                Padding="10"
+                BackgroundColor="BlanchedAlmond"
+                CornerRadius="25"
+                HeightRequest="65"
+                WidthRequest="150">
+                <Button
+                    BackgroundColor="BlanchedAlmond"
+                    FontSize="18"
+                    Text="Category 4" />
+            </Frame>
+        </FlexLayout>
+    </StackLayout>
 </ContentPage>

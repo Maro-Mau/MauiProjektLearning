@@ -1,6 +1,7 @@
 G:\Repos\MauiProjektLearning\bin\Debug\net8.0-ios\iossimulator-x64\KarteiKartenApp.runtimeconfig.json
 G:\Repos\MauiProjektLearning\bin\Debug\net8.0-ios\iossimulator-x64\KarteiKartenApp.dll
 G:\Repos\MauiProjektLearning\bin\Debug\net8.0-ios\iossimulator-x64\KarteiKartenApp.pdb
+G:\Repos\MauiProjektLearning\bin\Debug\net8.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll
 G:\Repos\MauiProjektLearning\bin\Debug\net8.0-ios\iossimulator-x64\Google.Protobuf.dll
 G:\Repos\MauiProjektLearning\bin\Debug\net8.0-ios\iossimulator-x64\K4os.Compression.LZ4.dll
 G:\Repos\MauiProjektLearning\bin\Debug\net8.0-ios\iossimulator-x64\K4os.Compression.LZ4.Streams.dll
@@ -285,10 +286,6 @@ G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\s
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.stamp
-G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\hitman.png
-G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
-G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
-G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -301,6 +298,10 @@ G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\hitman.png
+G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
+G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.stamp
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 G:\Repos\MauiProjektLearning\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.stamp
