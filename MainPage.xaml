@@ -39,6 +39,12 @@
                 Placeholder="Password"
                 SemanticProperties.HeadingLevel="Level9"
                 Style="{StaticResource SubHeadline}" />
+            <Button
+                x:Name="Hallo"
+                Clicked="Hallo_Clicked"
+                
+                
+            />
 
 
             <FlexLayout

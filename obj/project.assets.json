@@ -60867,24 +60867,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\reneb\\.nuget\\packages\\": {},
+    "C:\\Users\\rene.barthel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
+      "projectUniqueName": "D:\\repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
       "projectName": "KarteiKartenApp",
-      "projectPath": "G:\\Repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
-      "packagesPath": "C:\\Users\\reneb\\.nuget\\packages\\",
-      "outputPath": "G:\\Repos\\MauiProjektLearning\\obj\\",
+      "projectPath": "D:\\repos\\MauiProjektLearning\\KarteiKartenApp.csproj",
+      "packagesPath": "C:\\Users\\rene.barthel\\.nuget\\packages\\",
+      "outputPath": "D:\\repos\\MauiProjektLearning\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\reneb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rene.barthel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

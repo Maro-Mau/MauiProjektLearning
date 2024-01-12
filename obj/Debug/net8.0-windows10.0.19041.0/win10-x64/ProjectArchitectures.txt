@@ -1,1 +1,1 @@
-G:\Repos\MauiProjektLearning\KarteiKartenApp.csproj;x64
+D:\repos\MauiProjektLearning\KarteiKartenApp.csproj;x64

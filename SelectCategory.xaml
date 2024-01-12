@@ -4,17 +4,16 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-
-
+    
     <StackLayout>
-        <Label
+        <Label            
             Margin="20,70,20,10"
             FontSize="28"
             HorizontalTextAlignment="Center"
             Text="Choose a Category"
             TextColor="BlanchedAlmond"
             VerticalTextAlignment="Center" />
-
+       
         <FlexLayout
             AlignItems="Center"
             Direction="Row"
@@ -51,10 +50,10 @@
             Direction="Row"
             JustifyContent="Center">
             <Frame
-                Margin="20,40,20,10"
+                Margin="20,40,20,10"                              
                 Padding="10"
                 BackgroundColor="BlanchedAlmond"
-                CornerRadius="30"
+                CornerRadius="25"
                 HeightRequest="65"
                 WidthRequest="150">
 
@@ -72,9 +71,11 @@
                 HeightRequest="65"
                 WidthRequest="150">
                 <Button
+                    x:Name="btn4"
                     BackgroundColor="BlanchedAlmond"
                     FontSize="18"
-                    Text="Category 4" />
+                    Text="Category 4"
+                    Clicked="Button_Clicked"/>
             </Frame>
         </FlexLayout>
     </StackLayout>
